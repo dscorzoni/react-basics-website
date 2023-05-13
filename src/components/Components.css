@@ -5,12 +5,13 @@
     margin: 0;
     padding: 0;
     font-family: Quicksand, sans-serif;
+    color:rgb(63, 63, 63);
 }
 
 header {
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
     padding: 1.5rem;
-    color: white;
+    color: rgb(241, 241, 241);
 }
 
 header .container {
@@ -19,6 +20,11 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+header .container h1 {
+    color: white;
 }
 
 header nav a {
@@ -30,4 +36,104 @@ header nav a {
 
 header nav a:hover {
     background-color: rgba(255, 255, 255, 0.178);
+}
+
+section.hero {
+    background-color: rgb(241, 241, 241);
+}
+
+section div.container {
+    padding: 3rem 0;
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section div.container div.hero-content {
+    margin-right: 2rem;
+}
+
+section div.container h1 {
+    font-size: 3.5rem;
+}
+
+section div.container h2 {
+    font-size: 2rem;
+}
+
+section div.container p {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+}
+
+section div.container button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color:#2C5364;
+    border:#2C5364 1px solid;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+section div.container button:hover {
+    background-color:#203A43;
+    color:rgb(241, 241, 241);
+    transition: 0.5s;
+}
+
+section div.container img {
+    border-radius: 1rem;
+}
+
+.testimonials div.container {
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.testimonials h1 {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin: 0;
+}
+
+section div.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+
+}
+
+section div.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color:rgb(241, 241, 241);
+    border-radius: 0.5rem;
+    max-width: 300px;
+}
+
+section div.card h1 {
+    font-size: 1.5rem;
+    padding: 0rem;
+}
+
+section div.card h2 {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+section div.card p {
+    margin: 0;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-align: center;
 }
