@@ -86,6 +86,7 @@ section div.container button:hover {
 
 section div.container img {
     border-radius: 1rem;
+    max-width: 100%;
 }
 
 .testimonials div.container {
@@ -94,6 +95,7 @@ section div.container img {
     justify-content: center;
     flex-direction: column;
     display: flex;
+    margin-bottom: 2rem;
 }
 
 .testimonials h1 {
@@ -103,14 +105,14 @@ section div.container img {
     margin: 0;
 }
 
-section div.cards {
+.cards {
     display: flex;
     justify-content: space-around;
     gap: 1.5rem;
 
 }
 
-section div.card {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,19 +123,98 @@ section div.card {
     max-width: 300px;
 }
 
-section div.card h1 {
+.testimonials div.card h1 {
     font-size: 1.5rem;
-    padding: 0rem;
+    padding: 0.5rem;
 }
 
-section div.card h2 {
+.testimonials div.card h2 {
     font-size: 1rem;
     padding: 0.5rem;
 }
 
-section div.card p {
+.testimonials div.card p {
     margin: 0;
     font-size: 1rem;
     padding: 0.5rem;
     text-align: center;
+}
+
+.card img {
+    padding: 0.5rem;
+}
+
+section.contact-form {
+    background-color: rgb(241, 241, 241);
+}
+
+.contact-form .container {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.contact-form .container input {
+    font-size: 1.1rem;
+    min-width: 30rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.contact-form .container textarea {
+    font-size: 1.1rem;
+    min-width: 30rem;
+    min-height: 10rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    resize: none;
+}
+
+.contact-form .container button {
+    font-size: 1rem;
+    
+}
+
+.form-status {
+    background-color: rgba(0, 255, 0, 0.266);
+    color: rgb(6, 122, 6);
+    min-width: 30rem;
+    padding: 1rem;
+    transition: 1s;
+    border: 1px rgb(46, 169, 83) solid;
+    text-align: center;
+}
+
+footer {
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    padding: 1.5rem;
+    color: rgb(241, 241, 241);
+}
+
+footer .container {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .container h1 {
+    color: white;
+}
+
+footer .container p {
+    color: white;
 }

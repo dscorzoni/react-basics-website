@@ -1,6 +1,11 @@
 import './Components.css';
 import Card from './Card';
 
+/*
+    This component renders the Testimonials section.
+    It uses a sub-component to render each Card using props.
+*/
+
 const Testimonials = () => {
     return (
         <section className="testimonials">

@@ -1,5 +1,9 @@
 import './Components.css';
 
+/*
+    This is a sub-component of Testimonials page to render a Card based on props.
+*/
+
 const Card = (props) => {
     return(
         <div className="card">

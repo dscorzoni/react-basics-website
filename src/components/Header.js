@@ -2,7 +2,7 @@ import './Components.css';
 
 /*
     This component renders the header of my page.
-    The header contains a logo and a simple navbar with links.
+    The header contains a logo and a simple navbar with links, so it's static content.
     The stylesheet is defined in the Components.css file.
 */
 

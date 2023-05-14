@@ -1,6 +1,11 @@
 import './Components.css';
 import HeroImage from "../assets/hero-image.jpg";
 
+/*
+    This component renders the Hero section of the page.
+    It's mostly static, the only difference here is the usage of import for image.
+*/
+
 const Hero = () => {
     return (
         <section className="hero">
